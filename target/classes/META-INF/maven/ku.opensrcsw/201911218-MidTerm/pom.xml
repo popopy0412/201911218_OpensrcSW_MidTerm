@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>ku.opensrcsw</groupId>
+  <artifactId>201911218-MidTerm</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>201911218-MidTerm</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+   		<groupId>midterm</groupId>
+   		<artifactId>problem2</artifactId>
+   		<version>0.0.1-SNAPSHOT</version>
+   		<scope>system</scope> 
+   		<systemPath>${basedir}/MidTermJar/problem2-0.0.1-SNAPSHOT.jar</systemPath>
+ 	</dependency>
+  </dependencies>
+</project>
